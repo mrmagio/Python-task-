@@ -9,6 +9,7 @@ for i in fx:
         for k in fz:
             f1 = not(fx[i] or fy[j] or fz[k]) 
             f2 = ((not fx[i]) and (not fy[j]) and (not fz[k]))
+            print(f1,'   ',f2,'   ',i,j,k)
             if  f1!=f2:
                 flag=0
 if flag == 1:
